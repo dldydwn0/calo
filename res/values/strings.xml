@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Calo2Activity!</string>
+    <string name="app_name">Calo2</string>
+    <string name="title">비만도측정하기</string>
+    <string name="titl1">키 :</string>
+    <string name="titl2">체중 :</string>
+    
+    
+     <string name="button_yes">예</string>
+    <string name="button_no">아니오</string>
+    <string name="alert_msg_exit">정말로 종료 하시겠습니까?</string>
+
+
+
+    
+</resources>

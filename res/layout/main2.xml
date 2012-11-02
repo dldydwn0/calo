@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="6111dp"
+            android:layout_marginTop="2650dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="다이어트에 도움주는 살안찌는 음식"
+                    android:textColor="#1862ff"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/q" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="최근 웰빙 열풍이 불면서 다이어트에 대한 관심이 높아지고 있는데요.  다이어트를 하실 때에는 적당한 운동과 더불어 저칼로리식단이 중요합니다. 저칼로리 음식으로는 마늘, 감자, 양배추가 대표적인데요. 이 외에도 다이어트음식추천으로 다양한 식품들이 있습니다. 지금부터 칼로리가 낮은 다양한 식품들을 소개해드리도록 하겠습니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="호박"
+                    android:textColor="#FFB914"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hobak" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="첫번째로 소개해드릴 다이어트음식추천 식품은 호박입니다.  호박과 호박씨에 함유되어 있는 파르무틴산은 혈액순환을 도와주어 얼굴이나 다리의 부종을 제거하는데 도움을 줄 수 있다고 합니다.  뿐만 아니라 함유된 비타민, 미네랄, 아미노산이 지방을 분해하는 신진대사를 촉진시켜주기 때문에 다이어트에 큰 도움이 된다고 합니다.  참고로 호박을 죽으로 요리하면 편하게 드실수 있다고 하니 참고하시기 바랍니다."
+                    android:textSize="15dp" 
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="토마토"
+                    android:textColor="#8B0000"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/toma" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="다음으로 소개해드릴 다이어트음식추천 식품은 토마토입니다. 저칼로리식단에 항상들어 가는 야채와 채소 중에서 열량이 낮은 식품에 속하는데요. 열량이 100g에 6kcal정도라고 합니다. 이러한 저칼로리 식품은 조금만 드셔도 포만감을 많이 느낄 수 있기 때문에 배고파 하는 다이어트어들에게 큰 도움이 됩니다. 특히 토마토는 칼륨, 구연산, 칼슘, 비타민이 함유되어 있어 체력을 회복하는데도 도움이 된다고 합니다.연산, 칼륨같은 천연미네랄이 많이 들어있기 때문에 체력이 보충이 된다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="양파"
+                    android:textColor="#9ACD32"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yang" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="중국음식에 많이 들어가는 양파역시 다이어트음식추천 식품 중 하나입니다. 양파는 영양소가 지방으로 전환되는 대사를 저해하기 때문에 비만을 예방하는데 큰 도움이 되는 식품입니다. 뿐만 아니라 콜레스테롤을 낮춰주어 성인병을 예방하는데도 도움을 주는데요. 기름진 음식을 먹는 중국인 들이 뚱뚱하지 않은 이유가 양파에 있다고 할정도로 양파는 다이어트에 좋은 식품입니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="당근"
+                    android:textColor="#FF4500"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dang" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15"
+                    android:text="비타민A가 풍부한 당근은 야맹증을 예방해주는 식품으로 널리 알려져 있는데요. 사실 당근은 저칼로리 식품으로 다이어트음식추천 식품 중 하나입니다. 당근은 식이섬유가 풍부하여 다이어트시 발생하기 쉬운 변비에 도움이 됩니다. 그리고 숙변 때문에 발생하는 피부트러블을 제거하는데 도움을 줍니다. 그 밖에 당근은 간기능 회복에 도움을 주고 체내 독소제거에 도움을 주어 피부미용에도 도움을 준다고 하니 여성 분들은 당근을 많이 드시기 바랍니다."
+                    android:textSize="15dp" 
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="다시마"
+                    android:textColor="#006400"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dasi" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="바다에서 나는 해조류인 다시마는 다이어트음식추천 중 하나로 열량이 매우 낮은 저칼로리 식품입니다. 섬유질이 많이 포만감이 높고 변비예방에 도움을 줍니다. 해조류의 점액성분은 지방의 흡수를 억제하여 요요현상등이 나타나는 것을 예방해준다고 합니다."
+                    android:textSize="15dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="달걀"
+                    android:textColor="#FFFF00"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dal" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="다음으로 소개해드릴 칼로리 낮음 음식은 달걀입니다. 완전식품 중 하나인 달걀 자체는 저칼로리 음식이 아닙니다. 삶은달걀 하나의 칼로리가 151kcal이기 때문입니다. 하지만 계란의 노른자를 제거하게 되면 살안찌는음식이 되는데요. 노른자를 제외한 흰자만 드실 경우 48kcal밖에 열량이 나가지 않습니다. 때문에 다이어트 식단에 계란 흰자를 넣어서 드시는 것이 좋습니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="우유"
+                    android:textColor="#00FFFF"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/milkk" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="칼슘의 왕 우유도 칼로리 낮음 음식에 포함됩니다. 살안찌는음식 중 하나인 우유는 500ml당 370kcal인 저칼로리 식품으로 널리 알려져 있지만 허기지고 출출할 때 뱃속을 달래주는 아주 좋은 식품입니다. 성장기 어린이 들의 뼈발육을 도와줄 뿐만 아니라 다이어트 하시는 분들에게도 좋은 식품입니다. 하지만 우유는 사람의 체질에따라 알러지나 설사, 피부트러블을 유발할 수 있으므로 자신에 체질에 맞는지 확인하고 드시기 바랍니다."
+                    android:textSize="15dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="양배추"
+                    android:textColor="#ADFF2F"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/be" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="다음으로 소개해드릴 다이어트식단추천 식품은 양배추입니다. 양배추는 비타민C가 많아 우리 몸을 튼튼하게 하는데 도움이 됩니다. 뿐만 아니라 포도당과 자당이 함유되어 있어 단맛이 나기 때문에 양배추 수프로 드시면 좋습니다. 마지막으로 양배추는 체중을 줄이고 위장 장애를 예방하는데 도움을 주기 때문에 다이어트식단짜기에 넣으면 좋은 식품입니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="고추"
+                    android:textColor="#FF0000"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/go" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="매운 고추 역시 다이어트식단추천 식품입니다. 고추에 포함된 캡사이신은 매운맛을 낼 뿐만 아니라 우리 몸의 교감신경을 활성화 시키는 역할을 합니다. 따라서 우리 몸의 에너지대사가 촉진되어 섭취된 칼로리를 소모를 10퍼센트정도 더 많이 하게 되어 다이어트에 도움을 줍니다."
+                    android:textSize="15dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="감자"
+                    android:textColor="#B8860B"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gam" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="다음으로 소개해드릴 다이어트식단추천 식품은 감자입니다. 감자는 칼로리가 다소 높은 편에 속하는 식품이지만 같은 양을 섭취 했을 때 포만감이 가장 높은 식품이기 때문에 허기진 다이어트자들에게 도움을 주는 식품입니다. 감자의 펙틴 성분은 설사, 변비를 예방해주고 위궤양에 도움을 주기 때문에 다이어트 하시는 분들에게 좋습니다. 그리고 그 밖에도 비타민C가 많아 몸 건강을 지키는데도 도움을 줍니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="두부"
+                    android:textColor="#AFEEEE"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doob" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="마지막으로 소개해드릴 칼로리 낮음 음식은 두부입니다. 두부 1모(500g)는 395kcal로 높은 열량인 것처럼 보이지만 100g당으로 따져보면 100그램당 79kcal로니까 토마토 1개 반 정도에 해당하는 열량을 가져 열량이 낮은 식품이라 할 수 있습니다. 그리고 두부의 재료인 콩은 단백질이 풍부하고 이소플라본이 많습니다."
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="양파를 먹었더니 살이 빠진 이유"
+                    android:textColor="#FFFF00"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eu" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="체지방 감소를 위해서는 양파를 섭취해주시는 것이 도움이 됩니다. 양파에 함유된 &apos;유화프로필&apos;이라는 성분은 지방이 살로 전환될 때 이를 억제하여 체지방을 감소시키는 효과가 있습니다. 양파즙의 경우 휴대성과 저장이 용이하므로 항상 챙기셔서 드시기 바랍니다. 양파는 &apos;지방&apos; 성분이 상당히 낮은 식품이면서 오히려 체지방이 몸에 쌓이는 것을 억제 시켜주기 때문에 많이 드셔도 되는 효과적인 다이어트 식품입니다."
+                    android:gravity="center"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    
+   

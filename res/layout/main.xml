@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_1"
+    android:orientation="vertical" >
+
+    <!-- 키 -->
+
+
+    <!-- 체중 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button3"
+        android:background="@drawable/bluebtn"
+        android:text="운동법"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:background="@drawable/bluebtn"
+        android:text="저칼로리 식단"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bluebtn"
+        android:text="BMI지수/체형 구하기"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:background="@drawable/bluebtn"
+        android:text="평균체중"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/mykg"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="46dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/mykg"
+        android:text="체중 :   "
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/mycm"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mykg"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mycm"
+        android:layout_alignBottom="@+id/mycm"
+        android:layout_toLeftOf="@+id/mycm"
+        android:text="@string/titl1"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mycm"
+        android:layout_alignBottom="@+id/mycm"
+        android:layout_toRightOf="@+id/mycm"
+        android:text="cm"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/TextView01"
+        android:text="kg"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

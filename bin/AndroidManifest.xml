@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yong.calo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="비만도 측정하기" >
+        <activity
+            android:name=".CaloActivity3210"
+            android:label="비만도 측정하기"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity
+            android:name=".CaloActivity32"
+            android:label="저칼로리 식단"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CaloActivity321"
+            android:label="운동법"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name=".CaloActivity3"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
+
+</manifest>
